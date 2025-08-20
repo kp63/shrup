@@ -1,0 +1,19 @@
+[package]
+name = "shrup"
+version = "0.1.0"
+edition = "2021"
+authors = ["kp63 <kuropanda63@gmail.com>"]
+description = "A shell script preprocessor"
+license = "MIT"
+
+[[bin]]
+name = "shrup"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+thiserror = "1.0"
+
+[dev-dependencies]
+tempfile = "3.0"
