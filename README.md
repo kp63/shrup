@@ -22,6 +22,12 @@ C言語のプリプロセッサーのように、ファイル内の`#include`デ
 
 - `#include <file>` → ファイルを解決して結合
 
+## インストール方法
+
+```bash
+cargo install shrup
+```
+
 ## 使用方法
 
 ```bash
